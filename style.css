@@ -6,9 +6,46 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins', 'sans-serif';
     
 }
 html{
     scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 0 20px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+#nav-links{
+    margin: auto;
+    margin-top: 20px;
+    display: flex; 
+    gap: 25px; 
+    list-style: none;
+    font-size: 22px;
+    animation: all ease 0.2s;
+    :hover{
+        color: purple;
+        cursor: pointer;
+    }
+
+}
+
+#toggle-mode{
+    font-size: 26px;
+    margin-top: 20px;
 }
